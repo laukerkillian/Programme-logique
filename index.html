@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- browser head -->
+    <title>Title</title>
+
+    <!-- meta require -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+
+    <!-- script -->
+    <script src="./assets/js/popper.min.js"></script>
+    <script src="./assets/js/bootstrap.js"></script>
+    <script src="./assets/js/program.js"></script>
+</head>
+<body>
+
+    <form id="form" class="container">
+        <h1>Programme logique</h1>
+        <div class="mb-3">
+            <label for="base" class="form-label">Base de connaissances et fait</label>
+            <textarea required class="form-control" id="base" rows="3"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label for="but" class="form-label">But</label>
+            <input required class="form-control" id="but" rows="3" />
+        </div>
+
+        <button class="btn btn-primary" id="check">Vérifier</button>
+
+        <div id="sortie" class="alert d-none alert-primary my-3" role="alert">
+            Prise en charge
+        </div>
+    </form>
+
+</body>
+</html>
